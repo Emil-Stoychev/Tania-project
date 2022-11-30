@@ -1,0 +1,228 @@
+section.work-week {
+    display: flex;
+    padding: 2rem 14rem 6rem 14rem;
+}
+
+section.work-week .days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+    cursor: pointer;
+}
+
+section.work-week .day {
+    background-color: #59c621;
+    width: 20%;
+    margin-bottom: 4rem;
+    border: none;
+    overflow: hidden;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    transition: all 300ms ease-in-out;
+}
+
+section.work-week .day:hover {
+    transform: scale(1.1);
+}
+
+section.work-week .day h2 {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+section.work-week .day p {
+    text-align: center;
+    background-color: white;
+    padding: 0.5rem 2rem;
+}
+
+section.work-week .day .season {
+    display: flex;
+    width: 100%;
+}
+
+section.work-week .day .season div {
+    width: 50%;
+}
+
+section.work-week .day .season h3 {
+    color: white;
+}
+
+
+
+
+/* ================================================= */ 
+
+    /*  R   E   S   P   O   N   S   I   V   E */
+
+/* ================================================= */ 
+
+@media screen and (max-width: 1865px) {
+
+    section.work-week {
+        padding: 2rem 0rem 6rem 0rem;
+    }
+    
+    section.work-week .days {
+        gap: 2rem;
+    }
+    
+    section.work-week .day {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    section.work-week {
+        padding: 2rem 0rem 6rem 0rem;
+    }
+
+    section.work-week .day h2 {
+        font-size: 24px;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    
+    section.work-week .day {
+        width: 13%;
+    }
+
+    section.work-week .day .season h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    section.work-week {
+        padding: 2rem 0rem 6rem 0rem;
+        width: 100%;
+    }
+
+    section.work-week .day h2 {
+        font-size: 20px;
+        padding: 10px 0px;
+        margin: 0;
+    }
+    
+    section.work-week .day {
+        width: 15%;
+    }
+
+    section.work-week .day .season h3 {
+        font-size: 14px;
+    }
+
+    section.work-week .day .season p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    section.work-week .day {
+        width: 18%;
+    }
+
+    section.work-week .day .season p {
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    section.work-week .day {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    section.work-week .day h2 {
+        font-size: 16px;
+    }
+
+    section.work-week .days {
+        gap: 1rem;
+    }
+
+    section.work-week .day {
+        width: 19%;
+    }
+
+    section.work-week .day .season h3 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    section.work-week article.sub-contacts > h2 {
+        font-size: 26px;
+    }
+
+    section.work-week .day {
+        width: 20%;
+    }
+
+    section.work-week .days {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    section.work-week .day {
+        width: 20%;
+    }
+
+    section.work-week .days {
+        gap: 1rem;
+    }
+
+    section.work-week .day .season h3 {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    section.work-week .days {
+        gap: 1rem;
+    }
+
+    section.work-week .day h2 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    section.work-week .days .season div p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    section.work-week .day h2 {
+        font-size: 10px;
+    }
+
+    section.work-week .days .season div p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+
+    section.work-week .day h2 {
+        font-size: 8px;
+    }
+}

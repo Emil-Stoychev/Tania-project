@@ -1,0 +1,124 @@
+{
+    "DE": {
+        "nav": {
+            "home": "Heim",
+            "story": "Geschichte",
+            "gallery": "Galerie",
+            "contacts": "Kontakte",
+            "workWeek": "Arbeitswoche",
+            "ourService": "Unser Service"
+        },
+        "home": {
+            "mainHeader": "Willkommen in unserem Kaffee",
+            "mainP": "In unserem Café werden ausschließlich hausgemachte Kuchen und Gebäck angeboten, damit Sie sich wie zu Hause fühlen können."
+        },
+        "ourStory": {
+            "mainHeader": "Unsere Geschichte",
+            "desc": "DE Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        },
+        "gallery": {
+            "mainHeader": "Galerie"
+        },
+        "contacts": {
+            "mainHeader": "Kontakte",
+            "facebook": {
+                "mainHeader": "Facebook",
+                "a": "Offen",
+                "p": "Unsere Facebook-Seite"
+            },
+            "location": {
+                "mainHeader": "Ort",
+                "a": "Siehe hier",
+                "p": "Fasangasse 33,1030 Wien,Austria"
+            },
+            "phone": {
+                "mainHeader": "Telefon",
+                "a": "01/9457881",
+                "p": "Wenn Sie einige Fragen haben"
+            },
+            "instagram": {
+                "mainHeader": "Instagram",
+                "a": "Offen",
+                "p": "Unsere Instagram-Seite"
+            }
+        },
+        "workWeek": {
+            "mainHeader": "Arbeitswoche",
+            "monday": "Montag",
+            "tuesday": "Dienstag",
+            "wednesday": "Mittwoch",
+            "thursday": "Donnerstag",
+            "friday": "Freitag",
+            "saturday": "Samstag",
+            "sunday": "Sonntag"
+        },
+        "ourService": {
+            "mainHeader": "Unsere Leistungen",
+            "seating": "Außen-/Innensitzplätze",
+            "smoking": "Nur draußen rauchen",
+            "pets": "Haustiere erlaubt",
+            "cash": "Nur Bargeld"
+        }
+    },
+    "EN": {
+        "nav": {
+            "home": "Home",
+            "story": "Story",
+            "gallery": "Gallery",
+            "contacts": "Contacts",
+            "workWeek": "Work week",
+            "ourService": "Our Service"
+        },
+        "home": {
+            "mainHeader": "Welcome to our coffee",
+            "mainP": "In our cafe, only homemade cakes and pastries are offered, so you can feel the comfort of home."
+        },
+        "ourStory": {
+            "mainHeader": "Our Story",
+            "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+        },
+        "gallery": {
+            "mainHeader": "Gallery"
+        },
+        "contacts": {
+            "mainHeader": "For contacts",
+            "facebook": {
+                "mainHeader": "Facebook",
+                "a": "Open",
+                "p": "Our facebook page"
+            },
+            "location": {
+                "mainHeader": "Location",
+                "a": "See here",
+                "p": "Fasangasse 33,1030 Wien,Austria"
+            },
+            "phone": {
+                "mainHeader": "Phone",
+                "a": "01/9457881",
+                "p": "If you have some questions"
+            },
+            "instagram": {
+                "mainHeader": "Instagram",
+                "a": "Open",
+                "p": "Our instragram page"
+            }
+        },
+        "workWeek": {
+            "mainHeader": "Work Week",
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday",
+            "sunday": "Sunday"
+        },
+        "ourService": {
+            "mainHeader": "Our Services",
+            "seating": "Outside/inside seating",
+            "smoking": "Only outside smoking",
+            "pets": "Pets allowed",
+            "cash": "Only cash"
+        }
+    }
+}

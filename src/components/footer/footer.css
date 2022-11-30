@@ -1,0 +1,62 @@
+section.footer {
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    overflow: hidden;
+}
+
+section.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+section.footer p .footer-divider {
+    width: 1px;
+    height: 30px;
+    border: 2px solid #59c621;
+    margin: 0.5rem 1rem;
+}
+
+
+
+
+
+/* ================================================= */ 
+
+    /*  R   E   S   P   O   N   S   I   V   E */
+
+/* ================================================= */ 
+
+
+@media screen and (max-width: 450px) {
+
+    section.footer p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+
+    section.footer p {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 290) {
+
+    section.footer p {
+        font-size: 8px;
+    }
+
+}

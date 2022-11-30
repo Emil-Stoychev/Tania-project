@@ -1,0 +1,150 @@
+section.whats-the-hustle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    background-color: #e2dddd;
+    gap: 3rem;
+
+}
+
+section.whats-the-hustle article,
+section.whats-the-hustle article {
+    width: 50%;
+}
+
+section.whats-the-hustle article:nth-child(1) {
+    display: flex;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    transition: all 300ms ease-in-out;
+}
+
+section.whats-the-hustle article:nth-child(1):hover {
+    transform: scale(1.1);
+}
+
+section.whats-the-hustle article img {
+    width: 50%;
+}
+
+section.whats-the-hustle article:nth-child(2) {
+    padding: 2% 0 0 4%;
+}
+
+section.whats-the-hustle article:nth-child(2) h2 {
+    font-size: 64px;
+}
+
+section.whats-the-hustle article:nth-child(2) p {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 3rem;
+}
+
+
+
+
+/* ================================================= */ 
+
+    /*  R   E   S   P   O   N   S   I   V   E */
+
+/* ================================================= */ 
+
+@media screen and (max-width: 1500px) {
+
+    section.whats-the-hustle {
+        gap: 1rem;
+        padding: 6rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    section.whats-the-hustle {
+        gap: 3rem;
+        padding: 4rem;
+    }
+
+    section.whats-the-hustle article img {
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    section.whats-the-hustle article:nth-child(2) h2 {
+        font-size: 42px;
+    }
+    
+    section.whats-the-hustle article:nth-child(2) p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    section.whats-the-hustle article:nth-child(2) h2 {
+        font-size: 36px;
+    }
+    
+    section.whats-the-hustle article:nth-child(2) p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    section.whats-the-hustle {
+        flex-direction: column-reverse;
+        padding: 0 0 6rem 0;
+        gap: 1rem;
+    }
+
+    section.whats-the-hustle article,
+    section.whats-the-hustle article {
+        width: 80%;
+    }
+
+    section.whats-the-hustle article img {
+        width: 50%;
+    }
+
+    section.whats-the-hustle article:nth-child(2) h2 {
+        font-size: 42px;
+    }
+    
+    section.whats-the-hustle article:nth-child(2) p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+
+    section.whats-the-hustle {
+        gap: 0rem;
+    }
+
+    section.whats-the-hustle article:nth-child(2) h2 {
+        font-size: 36px;
+    }
+    
+    section.whats-the-hustle article:nth-child(2) p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    section.whats-the-hustle article:nth-child(2) h2 {
+        font-size: 32px;
+    }
+    
+    section.whats-the-hustle article:nth-child(2) p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}

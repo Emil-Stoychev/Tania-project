@@ -1,0 +1,302 @@
+/* LOGO */
+main.container header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main.container header .logo img {
+    width: 150px;
+    height: 65px;
+    z-index: 5;
+    margin-right: 2rem;
+}
+
+main.container header .logo select {
+    color: white;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+    font-weight: 900;
+    background-size: 60px;
+}
+
+main.container header .logo select option {
+    background-color: black;
+    color: white;
+}
+
+
+main.container header .logo select:hover {
+    transform: scale(1.2);
+}
+
+/* NAVBAR */
+
+main.container header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 90%;
+}
+
+main.container header .navbar .navbar-links ul {
+    display: flex;
+    gap: 2rem;
+}
+
+main.container header .navbar .navbar-links ul a,
+main.container header .logo button {
+    text-decoration: none;
+    display: block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+main.container header .navbar ul a:hover,
+main.container header .logo button:hover {
+    transform: scale(1.1);
+    background-color: #59c621;
+}
+
+main.container header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    z-index: 10;
+}
+
+main.container header a.toggle-btn {
+    position: absolute;
+    top: .75rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 30px;
+    height: 22px;
+    border: none;
+}
+
+main.container header a.toggle-btn .bar {
+    height: 4px;
+    will-change: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+
+
+/* ================================================= */ 
+
+    /*  R   E   S   P   O   N   S   I   V   E */
+
+/* ================================================= */ 
+
+@media screen and (max-width: 1520px) {
+
+    main.container header .navbar .navbar-links ul {
+        gap: 1rem;
+    }
+
+    main.container header .navbar .navbar-links ul a,
+    main.container header .logo button {
+        font-size: 12px;
+    }
+
+    main.container header .logo img {
+        width: 140px;
+        height: 55px;
+    }
+
+    main.container header .logo select {
+        font-size: 10px;
+        background-size: 50px;
+    }
+
+    main.container header .logo select option {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    main.container header .navbar .navbar-links ul {
+        gap: 0.5rem;
+    }
+
+    main.container header .navbar .navbar-links ul a,
+    main.container header .logo button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+
+    main.container header .navbar .navbar-links ul a,
+    main.container header .logo button {
+        font-size: 10px;
+    }
+
+    main.container header .logo img {
+        width: 120px;
+        height: 50px;
+    }
+
+    main.container header .logo select {
+        font-size: 8px;
+        background-size: 40px;
+    }
+
+    main.container header .logo select option {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    main.container header .logo img {
+        width: 110px;
+        height: 45px;
+    }
+
+    main.container header .logo select {
+        font-size: 8px;
+        background-size: 40px;
+    }
+
+    main.container header .logo select option {
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width: 1005px) {
+
+    main.container header a.toggle-btn {
+        display: flex;
+    }
+
+    main.container header .navbar .navbar-links {
+        display: none;
+        width: 32%;
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        background-color: rgba(0, 0, 0, 0.726);
+        padding: 2.5rem 1rem 1rem 0rem;
+        z-index: -1;
+        border-bottom-left-radius: 3rem;
+    }
+
+    main.container header .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    main.container header .navbar .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    main.container header .navbar .navbar-links ul a {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    main.container header .navbar .navbar-links.active {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+
+    main.container header .navbar .navbar-links {
+        width: 40%;
+    }
+
+    main.container header .navbar .navbar-links ul a {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    main.container header .navbar .navbar-links {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    main.container header .navbar .navbar-links {
+        width: 50%;
+    }
+
+    main.container header .navbar .navbar-links ul {
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    main.container header .navbar .navbar-links {
+        width: 60%;
+    }
+
+    main.container header .navbar .navbar-links ul {
+        gap: 0.3rem;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+
+    main.container header .logo img {
+        width: 50px;
+        height: 25px;
+    }
+
+    
+    main.container header .logo select {
+        font-size: 6px;
+        background-size: 40px;
+    }
+
+    main.container header .logo select option {
+        font-size: 5px;
+    }
+
+    main.container header a.toggle-btn {
+        top: .3rem;
+        right: 1rem;
+        height: 16px;
+    }
+
+    main.container header .navbar .navbar-links {
+        width: 75%;
+    }
+}

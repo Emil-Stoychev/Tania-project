@@ -1,0 +1,182 @@
+section.contacts .sub-contacts {
+    padding-bottom: 10rem;
+    background-color: #e2dddd;
+}
+
+
+section.contacts .sub-contacts .container div {
+    width: 50%;
+    border: none;
+    overflow: hidden;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    padding: 1rem;
+    transition: all 300ms ease-in-out;
+}
+
+section.contacts .sub-contacts .container div:hover {
+    transform: scale(1.1);
+}
+
+section.contacts .sub-contacts .container div img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+section.contacts .sub-contacts .container div h3 {
+    margin: 0.5rem 0.5rem;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+section.contacts .sub-contacts .container div h4 {
+    margin: 0.5rem 0 1rem 0;
+    font-weight: bolder;
+    font-size: 16px;
+    color: red;
+}
+
+section.contacts .sub-contacts .container div p {
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(128, 128, 128, 0.534);
+    width: 85%;
+    margin: 0 auto;
+}
+
+section.contacts .sub-contacts .container div p:nth-of-type(1) {
+    margin-top: 1rem;
+}
+
+section.contacts .sub-contacts .container div img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+section.contacts .sub-contacts .container div.phone img,
+section.contacts .sub-contacts .container div.location img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+section.contacts .sub-contacts .container div a {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+section.contacts .sub-contacts .container div a:hover {
+    transform: scale(1.2);
+    background-color: #59c621;
+}
+
+section.contacts .sub-contacts .container div.location img {
+    background-color: #c49faf;
+    border-radius: 12rem;
+}
+
+
+
+
+/* ================================================= */ 
+
+    /*  R   E   S   P   O   N   S   I   V   E */
+
+/* ================================================= */ 
+
+@media screen and (max-width: 1500px) {
+
+    section.contacts .sub-contacts .container {
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    section.contacts .sub-contacts .container {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    section.contacts .sub-contacts .container div h3 {
+        font-size: 18px;
+    }
+
+    section.contacts .sub-contacts .container div p {
+        font-size: 14px;
+    }
+
+    section.contacts .sub-contacts .container div a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    section.contacts .sub-contacts .container div h3 {
+        font-size: 16px;
+    }
+
+    section.contacts .sub-contacts .container div p {
+        font-size: 12px;
+    }
+
+    section.contacts .sub-contacts .container div a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+
+    section.contacts .sub-contacts .container {
+        flex-direction: column;
+    }
+
+    section.contacts .sub-contacts .container div {
+        width: 80%;
+    }
+
+    section.contacts .sub-contacts .container div h3 {
+        font-size: 20px;
+    }
+
+    section.contacts .sub-contacts .container div p {
+        font-size: 16px;
+    }
+
+    section.contacts .sub-contacts .container div a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    section.contacts .sub-contacts h2 {
+        font-size: 26px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    section.contacts .sub-contacts .container div h3 {
+        font-size: 16px;
+    }
+
+    section.contacts .sub-contacts .container div p {
+        font-size: 12px;
+    }
+
+    section.contacts .sub-contacts .container div a {
+        font-size: 12px;
+    }
+}
