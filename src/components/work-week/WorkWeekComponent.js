@@ -132,6 +132,23 @@ export const WorkWeekComponent = ({ text }) => {
                         </div>
                     </div>
 
+                    <div className="day">
+                        <h2>{text.holidays}</h2>
+
+                        <div className='season'>
+                            <div className='summer'>
+                                <h3>Summer</h3>
+                                <p>08:00</p>
+                                <p>20:00</p>
+                            </div>
+                            <div className='winter'>
+                                <h3>Winter</h3>
+                                <p>08:00</p>
+                                <p>18:00</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
 
