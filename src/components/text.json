@@ -50,7 +50,8 @@
             "thursday": "Donnerstag",
             "friday": "Freitag",
             "saturday": "Samstag",
-            "sunday": "Sonntag"
+            "sunday": "Sonntag",
+            "holidays": "Feiertage"
         },
         "ourService": {
             "mainHeader": "Unsere Leistungen",
@@ -111,7 +112,8 @@
             "thursday": "Thursday",
             "friday": "Friday",
             "saturday": "Saturday",
-            "sunday": "Sunday"
+            "sunday": "Sunday",
+            "holidays": "Holidays"
         },
         "ourService": {
             "mainHeader": "Our Services",
